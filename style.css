@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ubuntu", serif;
+}
+
+.offerbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    gap: 10px;
+}
+
+.offerbar i {
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+}
+
+navbar ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+ul a {
+    color: rgb(70, 71, 71);
+    text-decoration: none;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+    align-items: center;
+}
+
+navbar ul a:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.banner {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner-contain {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+
+.banner-contain h1 {
+    font-size: 5vw;
+}
+
+.banner-contain h2 {
+    font-size: 2vw;
+    padding-top: 20px;
+}
+
+.banner-contain button {
+    padding: 2px;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bannerpic {
+    display: flex;
+    transition: 2s;
+}
+
+.banner-image {
+    width: 100vw;
+}
+
+.left-button {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+.left-button i {
+    font-size: 9vw;
+    color: white;
+}
+
+.right-button {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+}
+
+.right-button i {
+    font-size: 9vw;
+    color: white;
+}
+
+.brand-container {
+    display: flex;
+    margin-top: 3vw;
+    justify-content: space-around;
+}
+
+.brand-logo {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.brand-logo img {
+    width: 6vw;
+    height: 5vw;
+}
+
+.customer {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.service {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 1vw;
+}
+
+.service div{
+    border-radius: 5px;
+    background-color:#f2f4f7;
+    padding: 10px;
+}
+
+.service-details i {
+    font-size: 3vw;
+}
+
+.Arrival {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+
+}
+
+.new-arrival {
+    position: relative;
+}
+
+.new-arrival img {
+    border-radius: 2%;
+}
+
+.overlay {
+    border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.new-arrival button {
+
+    font-size: 1.2vw;
+    color: #13161b;
+    background-color: burlywood;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 30%;
+    padding: 5px;
+}
+
+.most-wanted {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    overflow-x: scroll;
+}
+
+.most-wanted::-webkit-scrollbar {
+    appearance: none;
+}
+
+.new-most-wanted {
+    position: relative;
+    padding: 10px;
+}
+
+.new-most-wanted img {
+    border-radius: 2%;
+}
+
+.new-most-wanted p {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10%
+}
+
+.new-most-wanted i {
+    position: absolute;
+    
+    bottom: 10%;
+    right: 5%;
+}
+
+.offer{
+    background-color: rgb(19, 19, 19);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.offer-text{
+    padding: 4%;
+}
+.offer-text button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.footer {
+    margin-top: 5%;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer input{
+    padding: 12px;
+    width: 75vw;
+    margin-bottom: 11px;
+    border-radius: 10px;
+    border: solid #1D232C 3px;
+}
+.footer button {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+.contact-us {
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    padding: 30px; 
+    line-height: 3vw;
+    
+}
+.contact-us-text{
+    font-size: 1.2vw;
+    padding-top: 10px;
+}
+.icon i{
+    font-size: 2vw;
+    padding-left: 20px;
+}
+.container{
+    background-color: #1D232C;
+    color: #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60vw;
+    margin: auto;
+    padding: 5vw;
+    padding-right: 10vw;
+    margin-top: 10px;
+}
+.contactus p{
+font-size: 1.5vw;
+margin-top: 20px;
+}
+.contactus input, .contactus textarea{
+    width: 100%;
+    padding: 2vw;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+}
+.contactus button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    
+}
+.two-section{
+    display: flex;
+}
+.filter-section{
+    margin-left: 3%;
+    flex-basis: 25%;
+    position: relative;
+    font-size: 2vw;
+}
+.filter-section h2{
+margin-top: 3%;
+}
+.filter-section input{
+    margin-top: 2.5%;
+}
+.vertical-line{
+    border: none;
+    border-left: 5px solid #1D232C;
+    height: 100%;
+    margin: 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.product-section{
+    flex-basis: 75%;
+}
+.search-bar{
+    border: solid #1D232C 1px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    border: none;
+    width: 99%;
+    background-color: transparent;
+    outline: none;
+}
+.product-list{
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1vw;
+    gap: 8px;
+}
+.shirt img{
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.product h2{
+    font-size: 1vw;
+}
+
+.sidenavbar{
+position: fixed;
+background-color: rgb(20, 19, 19);
+color: white;
+width: 50%;
+height: 100%;
+padding: 20px;
+top: 0;
+left: 0;
+margin-left: -60%;
+transition-duration: 1s;
+z-index:10;
+}
+.sidenavbar-links{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.sidenavbar-link a{
+    text-decoration: none;
+    color: rgb(141, 230, 230);
+}
+.sidenavbar-links a:hover{
+    text-decoration: underline;
+    color: rgb(195, 186, 186)
+}
+.sidenavbar-links p{
+    margin-top: 50px;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+    #menunav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #menubars{
+        display: none;
+    }
+    
+}
